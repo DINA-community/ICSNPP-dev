@@ -1,0 +1,10 @@
+*.log
+*.hlto
+*.swp
+/pcap/
+testing/
+.gitlab-ci.yml
+.vscode
+CMakeFiles/
+*.pcap
+*.pcapng
