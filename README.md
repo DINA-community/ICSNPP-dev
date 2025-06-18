@@ -15,7 +15,7 @@ Industrial Control Systems protocol parsers plugins for the Zeek network securit
 The following zeek plugins are currently provided:
 
 - IEC 60870
-  - [IEC 60870-5-104](https://github.com/DINA-community/icsnpp-copt-icsnpp-iec104)
+  - [IEC 60870-5-104](https://github.com/DINA-community/icsnpp-iec104)
 - IEC 61850
   - [IEC 61850 MMS](https://github.com/DINA-community/icsnpp-iec61850-mms)
   - [IEC 61850-9-2 Sampled Values](https://github.com/DINA-community/icsnpp-iec61850-sv)
@@ -27,7 +27,7 @@ The following zeek plugins are currently provided:
   - [TCP Packet](https://github.com/DINA-community/icsnpp-tpkt)
   - [Utilities for zeek plugins](https://github.com/DINA-community/icsnpp-util)
 - OSI-Stack
-  - [Connection Oriented Transport Protocol ISO 8073](https://github.com/DINA-community/icsnpp-copt)
+  - [Connection Oriented Transport Protocol ISO 8073](https://github.com/DINA-community/icsnpp-cotp)
   - [Session Protocol ISO 8327-1](https://github.com/DINA-community/icsnpp-sess)
   - [Connection-Oriented Presentation Protocol ISO 8823](https://github.com/DINA-community/icsnpp-pres)
   - [Association Control Service ISO 8650-1](https://github.com/DINA-community/icsnpp-acse)
