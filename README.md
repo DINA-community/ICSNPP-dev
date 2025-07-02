@@ -15,7 +15,7 @@ Industrial Control Systems protocol parsers plugins for the Zeek network securit
 The following zeek plugins are currently provided:
 
 - IEC 60870
-  - [IEC 60870-5-104](https://github.com/DINA-community/icsnpp-iec104)
+  - [IEC 60870-5-104](https://github.com/DINA-community/icsnpp-iec60870-5-104)
 - IEC 61850
   - [IEC 61850 MMS](https://github.com/DINA-community/icsnpp-iec61850-mms)
   - [IEC 61850-9-2 Sampled Values](https://github.com/DINA-community/icsnpp-iec61850-sv)
