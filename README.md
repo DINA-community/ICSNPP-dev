@@ -11,22 +11,30 @@ In order to test a parser a corresponding pcap is required.
 
 ## Overview ICSNPP Packages
 
-Industrial Control Systems protocol parsers plugins for the Zeek network security monitoring framework using [Spicy](https://docs.zeek.org/projects/spicy/en/latest/).
+Industrial Control Systems protocol parsers plugins for the Zeek network security monitoring framework using usually [Spicy](https://docs.zeek.org/projects/spicy/en/latest/).
+The following zeek plugins are currently provided:
 
-The following parsers are currently provided:
-
-- [IEC 60870-5-104](https://github.com/DINA-community/icsnpp-ice104)
-- [IEC 61850](/IEC61850)
+- IEC 60870
+  - [IEC 60870-5-104](https://github.com/DINA-community/icsnpp-iec60870-5-104)
+- IEC 61850
   - [IEC 61850 MMS](https://github.com/DINA-community/icsnpp-iec61850-mms)
   - [IEC 61850-9-2 Sampled Values](https://github.com/DINA-community/icsnpp-iec61850-sv)
   - [IEC 61850-8-1 GOOSE](https://github.com/DINA-community/icsnpp-iec61850-goose)
 - [HART-IP](https://github.com/DINA-community/icsnpp-hartip)
-- Utilities
-  - [ASN.1](https://github.com/DINA-community/icsnpp-util)
+- TASE.2 in Layers
+  - [TASE.2 (ICCP)](https://github.com/DINA-community/icsnpp-iccp)
+  - [Manufacturing Message Specification](https://github.com/DINA-community/icsnpp-mms)
+  - [TCP Packet](https://github.com/DINA-community/icsnpp-tpkt)
+  - [Utilities for zeek plugins](https://github.com/DINA-community/icsnpp-util)
+- OSI-Stack
+  - [Connection Oriented Transport Protocol ISO 8073](https://github.com/DINA-community/icsnpp-cotp)
+  - [Session Protocol ISO 8327-1](https://github.com/DINA-community/icsnpp-sess)
+  - [Connection-Oriented Presentation Protocol ISO 8823](https://github.com/DINA-community/icsnpp-pres)
+  - [Association Control Service ISO 8650-1](https://github.com/DINA-community/icsnpp-acse)
 
 ## Getting started
 
-Navigate to the specific protocol repository to get a README about the implemented functions and metadata.
+Navigate to the specific repository to get the README about the implemented functions and metadata.
 
 ## Important Notes
 
